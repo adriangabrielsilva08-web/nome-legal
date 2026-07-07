@@ -1,0 +1,17 @@
+article {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espaço entre a imagem e o texto */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Ajuste proporcional da imagem */
+.imagem-artigo {
+  width: 100%;
+  max-width: 300px; /* Impede que ela fique grande demais */
+  height: auto;     /* Mantém a proporção original de altura */
+  border-radius: 8px; /* Cantos arredondados para um visual moderno */
+  object-fit: cover;
+}
